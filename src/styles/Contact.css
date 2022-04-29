@@ -1,0 +1,201 @@
+.Contact {
+  background-color: #121212;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.ContactBanner img {
+  width: 100%;
+  height: 500px;
+}
+.contact-address {
+  color: white;
+  width: 60%;
+  margin: auto;
+  margin-top: 10%;
+}
+.contact-address h1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.contact-address p {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+.message {
+  width: 60%;
+  margin: auto;
+}
+.message h1 {
+  padding-top: 50px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+.form {
+  display: flex;
+  width: 60%;
+  /* background: white; */
+  margin: auto;
+  flex: 1;
+  /* margin-bottom: 50px; */
+}
+.form-Name {
+  /* background: purple; */
+  flex: 0.5;
+}
+.form-Phone {
+  /* background: violet; */
+  flex: 0.5;
+}
+.form-email {
+  /* background: pink; */
+  flex: 0.5;
+}
+.form-subject {
+  /* background: lightblue; */
+  flex: 0.5;
+}
+.form-Name input {
+  width: 80%;
+  padding-bottom: 2px;
+  color: white;
+  border-bottom: 2px solid gray;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color: #121212;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  /* background: black; */
+}
+.form-Name label {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+.form-Phone input {
+  width: 80%;
+  padding-bottom: 2px;
+  color: white;
+  border-bottom: 2px solid gray;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color: #121212;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  /* background: black; */
+}
+.form-Phone label {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-email input {
+  width: 80%;
+  padding-bottom: 2px;
+  color: white;
+  border-bottom: 2px solid gray;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color: #121212;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  /* background: black; */
+}
+.form-email label {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+.form-subject input {
+  width: 80%;
+  padding-bottom: 2px;
+  color: white;
+  border-bottom: 2px solid gray;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color: #121212;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  /* background: black; */
+}
+.form-subject label {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+input {
+  padding-bottom: 10px !important;
+  justify-content: center;
+}
+input:hover {
+  border-bottom: 5px solid blue;
+}
+label {
+  padding-top: 5px;
+}
+
+/* TODO  */
+.typo {
+  width: 60%;
+  margin: 20px auto;
+  /* margin-bottom: 20px; */
+  /* background: yellow; */
+}
+.typo-input {
+  width: 100%;
+  padding-bottom: 2px;
+  color: white;
+  border-bottom: 4px solid gray;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color: #121212;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  /* background: black; */
+}
+.typo-label {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+span {
+  color: blue;
+}
+.typo button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background: #0652dd;
+  color: white;
+  border: none;
+  outline: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 800px) {
+  .ContactBanner img {
+    width: 100%;
+    height: 300px;
+  }
+}
